@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Kunzapp — SaaS & procurement management with Google Cloud and Google Workspace integrations." />
+  <title>Kunzapp | SaaS & Procurement Management on Google Cloud</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <div class="container row">
+      <div class="brand" aria-label="Kunzapp">
+        <span class="logo" aria-hidden="true">KZ</span>
+        <span class="brand-text">Kunzapp</span>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#solution">Solution</a>
+        <a href="#integrations">Google Integrations</a>
+        <a href="#security">Security</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="menu" id="menuBtn" aria-label="Open menu" aria-expanded="false">Menu</button>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <a href="#solution">Solution</a>
+      <a href="#integrations">Google Integrations</a>
+      <a href="#security">Security</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="pill">Built on Google Cloud • Integrates with Google Workspace</div>
+          <h1>Control your SaaS and procurement from one place.</h1>
+          <p class="lead">
+            Kunzapp provides centralized visibility into software spend, contracts, usage, access permissions,
+            and renewals—powered by Google Cloud and connected to Google Workspace and identity providers.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="#integrations">See Google integrations</a>
+            <a class="btn" href="#contact">Request a demo</a>
+          </div>
+
+          <div class="metrics" aria-label="Key outcomes">
+            <div class="metric">
+              <div class="metric-kpi">Real-time</div>
+              <div class="metric-label">Spend & renewal visibility</div>
+            </div>
+            <div class="metric">
+              <div class="metric-kpi">AI-driven</div>
+              <div class="metric-label">License & risk insights</div>
+            </div>
+            <div class="metric">
+              <div class="metric-kpi">Centralized</div>
+              <div class="metric-label">Governance & controls</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="Illustration">
+          <div class="hero-card-header">
+            <div class="tag">Data in</div>
+            <div class="tag">Insights</div>
+            <div class="tag">Controls</div>
+          </div>
+
+          <div class="flow">
+            <div class="flow-col">
+              <div class="iconbox">
+                <div class="icon" aria-hidden="true">🟦</div>
+                <div>
+                  <div class="label">Google Workspace</div>
+                  <div class="hint">Users, groups, SSO context</div>
+                </div>
+              </div>
+
+              <div class="iconbox">
+                <div class="icon" aria-hidden="true">🔐</div>
+                <div>
+                  <div class="label">Identity Providers</div>
+                  <div class="hint">Okta / SSO / access signals</div>
+                </div>
+              </div>
+
+              <div class="iconbox">
+                <div class="icon" aria-hidden="true">💳</div>
+                <div>
+                  <div class="label">Financial Data</div>
+                  <div class="hint">Payments, invoices, spend</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flow-center" aria-hidden="true">→</div>
+
+            <div class="flow-col">
+              <div class="iconbox accent">
+                <div class="icon" aria-hidden="true">KZ</div>
+                <div>
+                  <div class="label">Kunzapp Platform</div>
+                  <div class="hint">Visibility • AI • Governance</div>
+                </div>
+              </div>
+
+              <div class="stack">
+                <div class="chip">Ingest</div>
+                <div class="chip">Normalize</div>
+                <div class="chip">Analyze</div>
+                <div class="chip">Alert</div>
+                <div class="chip">Enforce</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card-footer">
+            <span class="small">Google Cloud infrastructure for secure ingestion, analytics, and scaling.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOLUTION -->
+    <section id="solution" class="section">
+      <div class="container">
+        <h2>What Kunzapp does</h2>
+        <p class="sub">
+          A single, centralized view of your SaaS environment—designed for Finance, Procurement, and IT.
+        </p>
+
+        <div class="grid-3">
+          <article class="card">
+            <div class="icon big" aria-hidden="true">💰</div>
+            <h3>Spend & Renewals</h3>
+            <p>Track subscriptions, contracts, and renewal dates with clear ownership and audit-friendly records.</p>
+            <ul class="list">
+              <li>Renewal alerts</li>
+              <li>Contract repository</li>
+              <li>Budget visibility</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="icon big" aria-hidden="true">🧠</div>
+            <h3>AI Insights</h3>
+            <p>Identify unused licenses, redundant tools, and abnormal usage patterns to reduce waste.</p>
+            <ul class="list">
+              <li>License utilization</li>
+              <li>Redundancy detection</li>
+              <li>Cost efficiency signals</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="icon big" aria-hidden="true">🛡️</div>
+            <h3>Governance & Access</h3>
+            <p>Reduce shadow IT and enforce access policies using identity and usage signals.</p>
+            <ul class="list">
+              <li>Inactive account flags</li>
+              <li>Over-privileged users</li>
+              <li>Centralized controls</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTEGRATIONS -->
+    <section id="integrations" class="section alt">
+      <div class="container">
+        <h2>Google Cloud + Google Workspace integrations</h2>
+        <p class="sub">
+          Built on Google Cloud and designed to work seamlessly with Google Workspace and enterprise identity systems.
+        </p>
+
+        <div class="grid-2">
+          <article class="card flat">
+            <h3>Google Workspace connectivity</h3>
+            <p>
+              Connect Workspace to map users, groups, and organizational context to your SaaS applications,
+              enabling faster onboarding/offboarding and clearer ownership for renewals and access.
+            </p>
+            <div class="badges">
+              <span class="badge">Users & Groups</span>
+              <span class="badge">Org Context</span>
+              <span class="badge">Governance</span>
+            </div>
+          </article>
+
+          <article class="card flat">
+            <h3>Google Cloud foundation</h3>
+            <p>
+              Use Google Cloud infrastructure to securely ingest and process spend, contract, and usage data at scale,
+              powering real-time dashboards and AI-driven insights for Finance, Procurement, and IT.
+            </p>
+            <div class="badges">
+              <span class="badge">Secure Ingestion</span>
+              <span class="badge">Scalable Processing</span>
+              <span class="badge">Analytics</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-no">01</div>
+            <div>
+              <div class="step-title">Connect</div>
+              <div class="step-text">Link Workspace, SSO/IdP, and financial signals to pull SaaS data into one view.</div>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-no">02</div>
+            <div>
+              <div class="step-title">Analyze</div>
+              <div class="step-text">Normalize usage and spend; detect unused licenses, redundancies, and risk patterns.</div>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-no">03</div>
+            <div>
+              <div class="step-title">Control</div>
+              <div class="step-text">Set renewals, governance rules, and alerts to keep budgets and access under control.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="note">
+          <strong>Tip for your “Link about solution” field:</strong>
+          use your homepage link <span class="mono">https://kunzapp.cloud/</span> or a GitHub Pages link after you deploy.
+        </div>
+      </div>
+    </section>
+
+    <!-- SECURITY -->
+    <section id="security" class="section">
+      <div class="container">
+        <h2>Security & reliability</h2>
+        <p class="sub">
+          Centralized governance with privacy-aware data handling and clear operational controls.
+        </p>
+
+        <div class="grid-3">
+          <article class="card">
+            <div class="icon big" aria-hidden="true">🔒</div>
+            <h3>Access control</h3>
+            <p>Use identity signals to detect inactive users, privilege drift, and access anomalies.</p>
+          </article>
+          <article class="card">
+            <div class="icon big" aria-hidden="true">📋</div>
+            <h3>Audit-ready</h3>
+            <p>Contracts, renewals, and ownership tracked in one place for clear accountability.</p>
+          </article>
+          <article class="card">
+            <div class="icon big" aria-hidden="true">⚙️</div>
+            <h3>Operational clarity</h3>
+            <p>Real-time dashboards and alerts reduce manual work and improve response time.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section cta">
+      <div class="container cta-box">
+        <div>
+          <h2>Request a demo</h2>
+          <p class="sub">Tell us what you want to control: spend, renewals, access, or all of the above.</p>
+          <p class="small">
+            Email: <a href="mailto:laura@kunzapp.cloud">laura@kunzapp.cloud</a> • Website:
+            <a href="https://kunzapp.cloud/" target="_blank" rel="noreferrer">kunzapp.cloud</a> • Location: Mexico
+          </p>
+        </div>
+
+        <form class="form" onsubmit="return false" aria-label="Contact form">
+          <label>
+            <span>Name</span>
+            <input id="name" name="name" autocomplete="name" placeholder="Your name" />
+          </label>
+
+          <label>
+            <span>Work email</span>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="name@company.com" />
+          </label>
+
+          <label>
+            <span>Message</span>
+            <textarea id="message" name="message" rows="4" placeholder="What do you want to manage with Kunzapp?"></textarea>
+          </label>
+
+          <button class="btn primary" id="copyBtn" type="button">Copy message to email</button>
+          <p class="small" id="copyHint" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container row">
+      <div class="small">© <span id="year"></span> Kunzapp. Built for Finance, Procurement & IT.</div>
+      <div class="small">Google Cloud & Google Workspace integrations highlighted for solution qualification.</div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
